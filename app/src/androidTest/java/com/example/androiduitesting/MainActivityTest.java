@@ -72,6 +72,7 @@ public class MainActivityTest {
     }
 
     // New Stuff
+    // Had to turn off animations in emulator for tests to work! Otherwise doesn't see it properly and fails
     @Test
     public void testActivitySwitch() {
 
